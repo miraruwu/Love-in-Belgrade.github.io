@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>playground</title>
+<link href="StyleSheet.css" rel="stylesheet">
+</head>
+<style media="screen">
+body
+{
+background-color : black;
+}
+</style>
+
+<body onload="typeWriter();">
+
+
+
+
+<div style=color:Green>
+<div style=font:consolas>
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = "Welcome to miraruwu.github.io";
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+
+
+  }
+}
+</script type="text/javascript">
+</div>
+<img src='https://media.discordapp.net/attachments/737939284564115517/868450932889894933/MOSHED-2021-7-24-21-13-45.gif'></img>
+</body>
+</html>
